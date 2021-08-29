@@ -129,12 +129,16 @@
 }
 .name {
     color: yellow;
-    margin-left: 1150px;
-    margin-top: -10px;
+    /* margin-left: 1150px;
+    margin-top: -10px; */
+    display:flex;
+    justify-content:flex-end;
+    margin-right: 50px;
     padding: 5px 15px;
     font-size: larger;
     font-weight: bolder;
     margin-bottom:10px;
+    width: 95.3%;
 }
 .athlete-name {
     display: flex;
@@ -145,8 +149,16 @@
 }
 .git {
     display: flex;
-    margin-left: 1165px;
-    font-size: 20px;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-size: larger;
+    font-weight: bolder;
     color: white;
     padding-bottom: 10px;
+    width: 90%;
+}
+.author {
+    text-align: right;
+    display:flex;
+    flex-direction: column;
 }
