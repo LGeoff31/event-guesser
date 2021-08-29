@@ -1,5 +1,3 @@
-import { findByLabelText } from "@testing-library/dom";
-
 const ProgressBar = (props) => {
     const { bgcolor, completed } = props;
   
