@@ -154,6 +154,7 @@ const App = () => {
                         {choiceChoosen === true ? <button className="button" onClick={() => nextLevel()} > Next </button> : null} 
                     </div>
                     <p className="name"> By Geoffrey Lee</p>
+                    <a className="git" href="https://github.com/LGeoff31/event-guesser" target="_blank" rel="noreferrer"> GitHub  </a>
                     
                 </div>
             }
