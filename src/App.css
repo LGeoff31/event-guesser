@@ -61,11 +61,11 @@
 }
 .option {
     padding: 10px 15px;
-    font-size: 8px;
+    font-size: 14px;
     border-radius: 20px;
     margin-bottom: 20px;
     margin: 5px;
-    width: 60px;
+    width: 72px;
     background-color: white;
 }
 .options {
@@ -91,7 +91,7 @@
     color: blue;
     padding: 10px 15px;
     font-size: 8px;
-    margin-left: -280px;
+    margin-left: -300px;
     margin-top: 30px;
     margin-bottom: 5px;
     border-radius: 20px;
