@@ -123,6 +123,7 @@ const App = () => {
                     <br/>
                     <p className="outputMessage">{outputMessage(points)} </p>
                     <p className="name"> By Geoffrey Lee</p>
+                    <a className="git" href="https://github.com/LGeoff31/event-guesser" target="_blank" rel="noreferrer"> GitHub  </a>
                 </div>
             :
                 <div>
@@ -131,11 +132,6 @@ const App = () => {
                     <div className="level">
                         <p> Level: {level+1}/{levels.length}</p>
                         <ProgressBar bgcolor="#00695c" completed={(level/levels.length) * 100} />
-                    </div>
-                    <div className="container"> 
-                        <div className="progress-bar"> 
-
-                        </div>
                     </div>
                     <h2 className="athlete-name">  {levels[level].name} </h2>
                     <img 
