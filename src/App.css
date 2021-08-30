@@ -18,16 +18,192 @@
 	}
 }
 .app {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    align-items: center;
     background-color: transparent;
     color: red;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 45%;
+	height: 100%;
+}
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    color: yellow;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.level {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: rgb(119, 250, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.points {
+    padding: 5px 10px;
+    font-size: 20px;
+    color: rgb(119, 250, 119);
+    font-weight: bolder;
+}
+.runner-image {
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.option {
+    padding: 10px 15px;
+    font-size: 8px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 5px;
+    width: 60px
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.bottom-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.button {
+    color: blue;
+    padding: 0px 15px;
+    font-size: 32px;
+    margin-left: -280px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.outputMessage {
+    color: white;
+    font-size: large;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.outputImage {
+    width: 700px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.status {
+    display:flex;
+    justify-content: center;
+    color: gold;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.outputMessage {
+    font-weight: bolder;
+}
+.name {
+    color: yellow;
+    display:flex;
+    justify-content:flex-end;
+    padding: 5px 15px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom:10px;
+    width: 95.3%;
+}
+.athlete-name {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size:30px;
+    font-weight: 100px;
+}
+.git {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-bottom: -10px;
+    width: 90%;
+}
+.author {
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 400px) {
+    .title {
+        font-size: 30px;
+    }
+    .runner-image {
+        width: 750px;
+        height: 525px;
+    }
+    .option {
+        font-size: 30px;
+        width: 150px;
+        margin: 30px;
+    }
+}
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Old Standard TT', serif;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.app {
+    flex: 1;
+    background-color: transparent;
+    color: red;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
 }
 .title {
     display: block;
@@ -152,14 +328,14 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
-    font-size: larger;
+    font-size: 1000px;
     font-weight: bolder;
-    color: white;
-    padding-bottom: 10px;
+    color: #ffffff;
+    padding-bottom: -10px;
     width: 90%;
 }
 .author {
     text-align: right;
     display:flex;
     flex-direction: column;
-}
+} */
